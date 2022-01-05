@@ -1,0 +1,122 @@
+.name{
+    text-align: center;
+    background-color: rgba(19, 18, 18, 0.692);
+    margin:0 25% 1%;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size:2em;
+    color:gainsboro;
+    padding-bottom: 1%;
+}
+.description{
+    background-color:rgba(129, 61, 61, 0.541) ;
+    align-content: center;
+    border-radius: 5px;
+    padding: 30px 30px 50px 30px ;
+    text-align: justify;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:1% 0.5% 1% 2%;
+    color: rgba(3, 39, 83, 0.918);
+    line-height:0.9em ;
+    border-left: 4px solid;
+    border-image: linear-gradient(yellow,cyan);
+    border-image-slice: 19;
+    width: 50%;
+   
+}
+.name-link{
+    color:rgba(0, 0, 0, 0.459);
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.background-image{
+    background-image: url("backgroundimgblur.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0;
+}
+html,body{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+.description-box{
+    display: flex;
+    height: 30%;
+   
+
+}
+#profile{
+    width: 50%;
+    height: 400px;
+}
+.image{
+    height: 100%;
+    margin-left: 20%;
+}
+.works{
+    text-align: center;
+    background-color: rgba(19, 18, 18, 0.692);
+    margin:0 25% 5%;
+    border-radius: 10px;
+    font-family:'Monoton', cursive;
+    font-size:1.8em;
+    color:rgba(255, 255, 255, 0.781);
+    padding-bottom: 1%;
+}
+.artimage{
+    margin-left: 1%;
+    box-shadow: 10px 10px 20px rgb(15, 14, 12);
+}
+.aw-link-button{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 1.5em;
+text-align: center;
+text-decoration: none;
+color: aliceblue;
+background-image: linear-gradient(rgb(255, 19, 19),rgba(250, 41, 4, 0.884));
+padding: 10px 20px 10px 20px ;
+border-radius: 10px;
+margin-top: 18px;
+box-shadow: 2px 10px 25px rgb(14,15,12);
+}
+.images{
+    display: flex;
+    
+}
+.marge{
+    margin-left:10% ;
+
+}
+.Art-Works{
+    margin-top: 5%;
+}
+.bw-link-button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 1.5em;
+text-align: center;
+text-decoration: none;
+color: aliceblue;
+background-image: linear-gradient(rgb(255, 19, 19),rgba(250, 41, 4, 0.884));
+padding: 10px 20px 10px 20px ;
+border-radius: 10px;
+margin-top: 28px;
+box-shadow: 2px 10px 25px rgb(14,15,12);
+
+}
+.bimage{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   box-shadow: 8px 10px 15px rgb(14,15,12);
+}
+.b{
+    margin-top: 20px;
+    margin-left: 36%;
+}
